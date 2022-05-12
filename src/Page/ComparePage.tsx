@@ -46,7 +46,7 @@ const ComparePage:React.FC = () => {
         }else{
             setShowData(getData.getPhoneId(limits,[]))
         }
-        
+
     },[limits])
 
     return (

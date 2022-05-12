@@ -18,9 +18,11 @@ const ImgProduct:React.FC<{el:Phone}> = ({el}) => {
 
             {visible
                 ?
-                <div onMouseOut={() => {
-                    setVisible(false)
-                }}>
+                <div
+                    className="IP_modal"
+                    onPointerOut={() => {
+                    setVisible(true)}
+                }>
                     <ModalWindow/>
                 </div>
                 : ""
