@@ -1,0 +1,45 @@
+.MW_body{
+    width: 25rem;
+    max-width: 29vw;
+    height: 21rem;
+    max-height: 28vh;
+    margin: 0;
+    padding: 0;
+    background: #FFFFFF;
+    border: 1px solid #E3E3E3;
+    box-shadow: 0 16px 32px rgba(35, 39, 51, 0.1);
+    border-radius: 4px;
+    position: absolute;
+    z-index: 100;
+}
+
+.MW_find{
+    display: flex;
+    justify-content: center;
+}
+
+.MW_input{
+    width: 90%;
+    height: 47px;
+    background: #FFFFFF;
+
+    margin-top: 8%;
+
+    border: 1px solid #C1C1C1;
+    border-radius: 4px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+
+    outline: none;
+
+}
+
+::placeholder{
+    position: absolute;
+    top: 20%;
+    left: 4%;
+    color: #C1C1C1;
+}

@@ -1,0 +1,28 @@
+.L_body{
+    display: flex;
+    margin: 0;
+    height: auto;
+    align-items: center;
+
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+
+    letter-spacing: 0.02em;
+
+    color: #0D5ADC;
+}
+
+.L_text{
+    margin: 0 1rem 0 0;
+}
+
+.L_number{
+    width: auto;
+}
+
+.L_S{
+    margin: 0 0.2rem;
+}

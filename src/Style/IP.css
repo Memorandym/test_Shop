@@ -1,0 +1,38 @@
+.IP_Body{
+    display: flex;
+    flex-direction: column;
+    width: calc(25% + 25px);
+    padding-left: 15px;
+    position: relative;
+
+}
+
+.IP_up{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 15%;
+}
+
+.IP_Img{
+    width: auto;
+    height: 110px;
+    padding-bottom: 4%;
+}
+
+.IP_getall{
+    cursor: pointer;
+    height: 30px;
+    width: 27px;
+    padding: 10% 0 0 10%;
+}
+
+.IP_Title{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: #3B4157;
+}
+

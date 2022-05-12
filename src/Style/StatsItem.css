@@ -1,0 +1,27 @@
+.SI_body{
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #CDCFD2;
+}
+
+.SI_title{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #A4A9B9;
+
+    text-transform: uppercase;
+    width: calc(25% + 30px);
+}
+
+.SI_info_item{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #3B4157;
+    width: calc(25% + 25px);
+    padding-left: 15px;
+}
