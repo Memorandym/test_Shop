@@ -1,5 +1,6 @@
 import React from 'react';
 import cl from './ModalItem.module.css'
+import logo from '../Ico/ModalWindow/switch.svg'
 
 interface Phone {
     [key: string]: string | boolean
@@ -10,9 +11,10 @@ const ModalItem:React.FC<{el:Phone,change(phone:Phone):void}> = ({el,change}) =>
         <div className={cl.MI_body}>
             <img
                 onClick={()=>change(el)}
-                src="./UI/Ico/ModalWindow/switch.svg"
+                src={logo}
                 alt="svg"
                 width="20px"
+                className={cl.MI_change}
                 height="20px"/>
             <img
                 src={String(el.img)}
