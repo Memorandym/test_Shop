@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import '../Style/CP.css'
+import '../Style/ComparePage.css'
 import Preview from "../Components/Preview";
 import Limit from "../Components/Limit";
 import getData from "../BackImit/Data";

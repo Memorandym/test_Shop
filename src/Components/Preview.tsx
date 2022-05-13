@@ -23,10 +23,10 @@ const Preview:React.FC<{showData:Phone[],showDiff(state:boolean):void,count:numb
                     Показать различия
                 </span>
             </div>
-            {showData.map((el)=>
+            {showData.map((el) =>
                 <ImgProduct
                     el={el}
-                    count={countVal>showData.length}
+                    count={countVal > showData.length}
                     key={Number(el.id)}
                 />
             )}

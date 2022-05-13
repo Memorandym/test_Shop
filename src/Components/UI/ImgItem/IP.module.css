@@ -4,6 +4,7 @@
     width: calc(25% + 25px);
     padding-left: 15px;
     position: relative;
+    padding-top: 1%;
 }
 
 .IP_up{
@@ -35,4 +36,15 @@
     color: #3B4157;
 }
 
+
+@media screen and (max-width: 1024px){
+    .IP_Body{
+        padding-top: 2%;
+    }
+    .IP_Title{
+        font-size: 14px;
+    }
+
+
+}
 

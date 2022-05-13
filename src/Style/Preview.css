@@ -9,6 +9,8 @@
 .P_text_f{
     display: flex;
     align-items: flex-end;
+    flex-direction: row;
+
     width: calc(25% + 30px);
     height: 100%;
 
@@ -22,7 +24,7 @@
 
 input[type=checkbox]{
     transform: scale(1.8);
-    margin: 5px 1.3rem 0 5px;
+    margin: 5px 0.8rem 0 5px;
 }
 
 .P_Img{
@@ -32,4 +34,15 @@ input[type=checkbox]{
     width: 75%;
     height: 94%;
     margin-right: 5rem;
+}
+
+@media screen and (max-width: 1024px){
+    .P_text_f{
+        font-size: 14px;
+    }
+    input[type=checkbox]{
+        transform: scale(1);
+        margin: 0 0.5rem 0 0;
+
+    }
 }
