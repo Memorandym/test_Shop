@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import Header from "./Components/Header";
 import './Style/App.css'
 import ComparePage from "./Page/ComparePage";

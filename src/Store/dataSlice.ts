@@ -1,6 +1,4 @@
 import {createSlice,PayloadAction} from "@reduxjs/toolkit";
-import StatsItem from "../Components/StatsItem";
-import React from "react";
 
 interface phone {
     [key: string]: string | boolean
@@ -30,9 +28,14 @@ const dataSlice = createSlice({
         },
         clearPhone(state,action:PayloadAction<any>){
             state.list=[];
-        }
+        },
+        changePhone(state,action:PayloadAction<any>){
+            state.list[state.list.findIndex(el=>
+                el.id==action.payload.old
+            )] = action.payload.new
+        },
     }
 })
 
-export const {addPhone} = dataSlice.actions
+export const {addPhone,clearPhone,changePhone} = dataSlice.actions
 export default dataSlice.reducer

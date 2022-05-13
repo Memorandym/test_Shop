@@ -1,29 +1,25 @@
 .MW_body{
     width: 25rem;
     max-width: 29vw;
-    height: 21rem;
-    max-height: 28vh;
-
+    height: auto;
     background: #FFFFFF;
     border: 1px solid #E3E3E3;
     box-shadow: 0 16px 32px rgba(35, 39, 51, 0.1);
     border-radius: 4px;
-
     position: absolute;
     z-index: 100;
-
     display: flex;
     flex-direction: column;
     align-items: center;
+    top: 35%;
 
-    overflow-x: auto;
 }
 
 .MW_find{
     display: flex;
-    justify-content: center;
-    width: 100%;
-    position: fixed;
+    justify-content: flex-start;
+    width: 90%;
+
 }
 
 .MW_input{
@@ -42,7 +38,6 @@
     font-size: 24px;
 
     outline: none;
-
 }
 
 ::placeholder{
@@ -54,8 +49,16 @@
 
 .MW_scroll{
     width: 90%;
-    height: 73%;
-    padding: 1% 0 1% 0;
+    overflow-x: auto;
+    height: auto;
+    max-height: calc((50px + 1.5rem) * 3 + 1.5rem);
+    /*Firefox*/
+    scrollbar-width: thin;
+    scrollbar-color: #E3E3E3 #ffffff;
+}
+
+.MW_scroll::-webkit-scrollbar{
+    display:block;
 }
 
 ::-webkit-scrollbar{
@@ -63,11 +66,12 @@
     width: 4px;
 }
 
-
 ::-webkit-scrollbar-thumb {
     background: #E3E3E3;
     border-radius: 8px;
 
 }
+
+
 
 
