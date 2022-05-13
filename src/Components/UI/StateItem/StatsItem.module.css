@@ -14,7 +14,6 @@
 
     text-transform: uppercase;
     width: calc(25% + 30px);
-
 }
 
 .SI_info_item{
@@ -31,7 +30,6 @@
 @media screen and (max-width: 1024px){
     .SI_title{
         font-size: 14px;
-        width: calc(25% + 30px);
     }
     .SI_info_item{
         font-size: 14px;
